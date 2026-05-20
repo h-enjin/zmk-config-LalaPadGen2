@@ -57,6 +57,11 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        hankakuzenkaku {
+            bindings = <&kp LA(GRAVE)>;
+            key-positions = <39 40>;
+        };
     };
 
     keymap {
